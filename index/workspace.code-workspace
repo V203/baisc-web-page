@@ -7,5 +7,9 @@
 			"path": "../css"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"css.styleSheets": [
+		
+		]
+	}
 }

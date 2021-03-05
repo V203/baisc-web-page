@@ -1,16 +1,38 @@
+header{
+    background-color: blue;
+    
+    
+}
+nav{
+    background-color: burlywood;
+}
+section{
+    background-color: cornflowerblue;
+    float: right;
+    width: 320px;
+    height: 320px;
+}
+aside{
+    background-color: darkgreen;
+    float: inline-end;
+    width: 320px;
+    height: 320px;
+    
+}
+article{
+    background-color: darkmagenta;
+    float:left;
+    width: 320px;
+    height: 320px;
+}
+
+footer{
+    background-color: darkolivegreen;
+    width: 320px;
+    height: 320px;
+}
 body{
-background-color:#f1f1f1;
-
-}
-h1{
-color: black;
-float: center;
-font-family: sans-serif ;
-text-align: center;
-
-}
-
-img{
-    align-items: center;
-    width: 100%;
+    background-color: darkred;
+    padding: 10px 10px;
+   
 }
