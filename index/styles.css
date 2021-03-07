@@ -125,8 +125,8 @@ border-style: ridge;
 }
 
 #content-museum{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    block-size: wrap;
     width: 35%;
     border-style: ridge;
     margin: 1% 1% 1% 1%;
