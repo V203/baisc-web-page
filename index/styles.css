@@ -1,6 +1,7 @@
 #htmlpage{
     display: flex;
-    flex-flow: row;
+    flex-flow: auto;
+
 
     padding-left: 1%;
     padding-right: 1%;
@@ -11,8 +12,7 @@
     margin-right: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
-    min-width: auto;
-    min-height: auto;
+   
 
 
 
@@ -28,7 +28,8 @@ h2{text-align: center;}
 
 #container-intro-me{
     display: flex;
-    flex-flow: row;
+    flex-wrap: row;
+    
     background-color: rgb(255, 255, 255);
     padding-left: 1%;
     padding-right: 1%;
@@ -84,9 +85,10 @@ border-style: solid;
 
 
 #container-castle{
-    width: 30%;
+
     display: flex;
-    flex-flow: row ;
+
+
 
     border-style: ridge;
     
@@ -126,9 +128,7 @@ border-style: solid;
 #content-castle{
     
     background-color: rgb(255, 255, 255);
-    border-style: ridge;
-    
-    
+  
 
     padding-left: 1%;
     padding-right: 1%;
@@ -139,8 +139,8 @@ border-style: solid;
     margin-right: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
-    min-width: 400px;
-    width: 50%;
+   
+   
     
 
     
@@ -162,9 +162,11 @@ body{
 }
 
 #container-unionbuilding{
-    width: 30%;
     display: flex;
-    flex-flow: row;
+    flex-flow: nowrap;
+
+ 
+
     border-style: ridge;
 
 
@@ -183,8 +185,8 @@ body{
 
 }
 #content-unionbuilding{
-    min-width: 400px;
-    width: 50%;
+    
+    
     
     background-color: rgb(175, 187, 187);
     
@@ -199,7 +201,7 @@ body{
     margin-top: 1%;
     margin-bottom: 1%;
 
-    min-width: 400px;
+  
     
 }
 #img-unionbuilding{
@@ -220,11 +222,13 @@ body{
 }
 
 #container-museum{
-    width: 30%;
     display: flex;
-    flex-flow: row;
+    flex-flow: nowrap;
+ 
+
+
     
-    border-style: ridge;
+ 
 
     padding-left: 1%;
     padding-right: 1%;
@@ -241,8 +245,8 @@ body{
 #content-museum{
     
     
-    min-width: 400px;
-    width: 50%;
+    
+    
     
     border-style: ridge;
 
@@ -281,7 +285,8 @@ body{
 #container-city-fave{
     border-style: ridge;
     display: flex;
-    flex-flow: row;
+
+
 
     margin-left: 1%;
     margin-right: 1%;
@@ -324,7 +329,9 @@ body{
 }
 #almighty-container{
     display: flex;
-    flex-flow: unset;
+    flex: auto;
+
+
     
     background-color: blue;
 }
